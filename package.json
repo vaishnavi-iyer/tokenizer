@@ -1,0 +1,24 @@
+{
+  "name": "tokenizer",
+  "version": "1.0.0",
+  "description": "create a random token for a account number and retrieve the accoutn number with token",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js --ignore tokenDatabase.json",
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "vaishnavi-iyer",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "loki": "^0.28.1",
+    "lokijs": "^1.5.12",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.6"
+  }
+}
